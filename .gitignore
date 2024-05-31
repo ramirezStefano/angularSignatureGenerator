@@ -1,0 +1,48 @@
+# Angular specific
+angular.json
+*.log
+.sass-cache
+.node_modules
+*.ngsummary.json
+*.ngfactory.ts
+*.ngstyle.ts
+
+# Compiled output
+dist/
+out-tsc/
+build/
+
+# Dependencies
+node_modules/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# Generated files
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.DS_Store
+Thumbs.db
+.env
+*.env
+*.local
+*.bak
+*.tmp
+coverage/
+tmp/
+temp/
+
+# Storybook related
+.storybook/
+storybook-static/
