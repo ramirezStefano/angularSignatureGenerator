@@ -1,0 +1,53 @@
+@keyframes spin {
+  to {
+    transform: rotateX(3turn);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .angular-logo {
+    min-width: 100px;
+    max-width: 100px;
+    animation: spin 15s ease infinite;
+    justify-self: start;
+    align-self: center;
+  }
+}
+
+.header-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  /* position: fixed; */
+  width: 100vw;
+}
+
+.route {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 15px;
+  padding: 15px;
+  gap: 5px;
+  width: 400px;
+}
+
+.icons {
+  display: grid;
+  grid-auto-flow: column;
+  justify-self: center;
+  align-self: center;
+  padding: 15px;
+  gap: 15px;
+}
+
+button {
+  border: none;
+  background-color: none;
+  border-radius: 18px;
+}
+
+button:hover {
+  border: 4px;
+  background-color: grey;
+}
