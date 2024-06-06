@@ -1,12 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { fn } from '@storybook/test';
 // import { ButtonComponent } from './button.component';
-import { HeaderComponent } from '../app/header/header.component';
-
+import { FieldOptionsComponent } from '../app/field-options/field-options.component';
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
-const meta: Meta<HeaderComponent> = {
-  title: 'HeaderComponent',
-  component: HeaderComponent,
+const meta: Meta<FieldOptionsComponent> = {
+  title: 'FieldOptionsComponent',
+  component: FieldOptionsComponent,
   tags: ['autodocs'],
   //   argTypes: {
   //     backgroundColor: {
@@ -18,7 +17,7 @@ const meta: Meta<HeaderComponent> = {
 };
 
 export default meta;
-type Story = StoryObj<HeaderComponent>;
+type Story = StoryObj<FieldOptionsComponent>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary: Story = {

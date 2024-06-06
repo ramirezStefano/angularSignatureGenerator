@@ -42,6 +42,8 @@ Thumbs.db
 coverage/
 tmp/
 temp/
+.prettierrc
+# taskbox/
 
 # Storybook related
 .storybook/
