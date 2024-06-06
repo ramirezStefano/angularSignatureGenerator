@@ -19,8 +19,8 @@
   grid-auto-flow: column;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  /* position: fixed; */
   width: 100vw;
+  /* position: fixed; */
 }
 
 .route {
@@ -50,4 +50,9 @@ button {
 button:hover {
   border: 4px;
   background-color: grey;
+}
+
+span {
+  display: grid;
+  align-self: center;
 }
