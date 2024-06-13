@@ -7,12 +7,14 @@ import { FieldOptionsComponent } from '../field-options/field-options.component'
   imports: [FieldOptionsComponent],
   // templateUrl: './special-input.component.html',
   template: `
-    <div style="margin-left: 25px;">
-      <p>{{ variant }}</p>
-    </div>
-    <div class="special-input">
-      <input />
-      <app-field-options></app-field-options>
+    <div class="container">
+      <div>
+        <p>{{ variant }}</p>
+      </div>
+      <div class="special-input">
+        <input />
+        <app-field-options></app-field-options>
+      </div>
     </div>
   `,
   styleUrl: './special-input.component.css',
