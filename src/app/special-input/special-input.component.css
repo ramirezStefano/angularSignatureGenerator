@@ -1,15 +1,9 @@
 .container {
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 150px, 150px;
-  /* width: auto; */
-  /* grid-auto-columns: min-content; */
+  margin: 30px;
 }
 
 .label {
-  /* display: grid; */
-  /* font-variant: small-caps; */
-  /* width: 130px; */
   font-size: xx-large;
   background-color: red;
 }
@@ -17,10 +11,8 @@
 .special-input {
   display: grid;
   grid-auto-flow: column;
-
   column-gap: 20px;
   width: 800px;
-  margin-left: 16px;
   margin-bottom: 16px;
   margin-top: 0px;
   padding-top: 0px;

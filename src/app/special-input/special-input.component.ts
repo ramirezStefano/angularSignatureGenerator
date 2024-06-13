@@ -5,7 +5,6 @@ import { FieldOptionsComponent } from '../field-options/field-options.component'
   selector: 'app-special-input',
   standalone: true,
   imports: [FieldOptionsComponent],
-  // templateUrl: './special-input.component.html',
   template: `
     <div class="container">
       <div>
